@@ -1,0 +1,41 @@
+{
+    "name": "jsonct",
+    "displayName": "jsonct",
+    "description": "json with comments and multiline strings",
+    "version": "0.1.0",
+    "publisher": "jsen-",
+    "license": "MIT",
+    "engines": {
+        "vscode": "0.10.x"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "jsonct",
+                "aliases": [
+                    "JSON with Comments and multi-line strings"
+                ],
+                "extensions": [
+                    ".jsonct"
+                ],
+                "filenames": [],
+                "mimetypes": [],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jsonct",
+                "scopeName": "source.jsonct",
+                "path": "./syntaxes/JSONCT.tmLanguage.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jsen-/jsonct.git"
+    }
+}
