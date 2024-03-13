@@ -1,9 +1,9 @@
 {
-    "name": "jsonct",
-    "displayName": "jsonct",
-    "description": "json with comments and multiline strings",
+    "name": "jsen",
+    "displayName": "jsen",
+    "description": "JSON enhanced",
     "version": "0.1.0",
-    "publisher": "jsen-",
+    "publisher": "jsenminus",
     "license": "MIT",
     "engines": {
         "vscode": "0.10.x"
@@ -14,12 +14,12 @@
     "contributes": {
         "languages": [
             {
-                "id": "jsonct",
+                "id": "jsen",
                 "aliases": [
-                    "JSON with Comments and multi-line strings"
+                    "JSON enhanced"
                 ],
                 "extensions": [
-                    ".jsonct"
+                    ".jsen"
                 ],
                 "filenames": [],
                 "mimetypes": [],
@@ -28,14 +28,14 @@
         ],
         "grammars": [
             {
-                "language": "jsonct",
-                "scopeName": "source.jsonct",
-                "path": "./syntaxes/JSONCT.tmLanguage.json"
+                "language": "jsen",
+                "scopeName": "source.jsen",
+                "path": "./syntaxes/JSEN.tmLanguage.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jsen-/jsonct.git"
+        "url": "https://github.com/jsen-/jsen-vscode.git"
     }
 }

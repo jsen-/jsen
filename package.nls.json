@@ -1,4 +1,4 @@
 {
-	"displayName": "JSONCT Language",
-	"description": "Provides syntax highlighting & bracket matching in JSONCT files."
+	"displayName": "JSEN Language",
+	"description": "Provides syntax highlighting & bracket matching in JSEN files."
 }
